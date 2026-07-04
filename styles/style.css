@@ -161,10 +161,7 @@ body {
 }
 
 .form {
-  /*fuente*/
-
   /*flexbox*/
-  border: none;
   max-width: 385px;
   flex-direction: column;
 }
@@ -229,3 +226,6 @@ body {
 }
 
 /* ===FOOTER===*/
+.footer {
+  background-color: #d35722;
+}
