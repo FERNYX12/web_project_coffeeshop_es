@@ -26,7 +26,7 @@
                 <h1 class="header-title"> Café de especialidad <span class="Triple_peaks"> <br>en Triple Peaks</span></h1>
                 <p class="header-description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.</p>
             </section>
-             <img src="images/inside_coffee_shop.png" alt="png" class="header-image">
+
             <section class="header-info">
                 <div class="header-hours">
                     <p>Horario:</br>
@@ -35,10 +35,69 @@
                 </div>
                 <p class="address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
             </section>
+            <img src="images/inside_coffee_shop.png" alt="png" class="header-image">
         </header>
+
         <main class="content">
-            <section id="reserva"></section>
+            <sectionn id="reserva">
+            <fieldset class="reserv">
+            <h2 class="title-reservation">Reservar una mesa</h2>
+            <form action="" method="get" class="form">
+
+                <label for="name" class="label-reservation">
+                  Nombre *
+                </label>
+                <input type="text"
+                  id="name"
+                  class="input-reservation"
+                  placeholder="Nombre"
+                  required
+                />
+
+                <label for="nComensales" class="label-reservation">
+                  Número de comensales *
+                </label>
+                <input type="number"
+                  id="nComensales"
+                  min="1"
+                  max="8"
+                  class="input-reservation"
+                  placeholder="1-8"
+                  required
+                />
+
+                <label for="date" class="label-reservation">
+                  Fecha y hora *
+                </label>
+                <input type="datetime-local"
+                  id="date"
+                  class="input-reservation"
+                  required
+                />
+
+                <label for="email" class="label-reservation">
+                  Tu correo electrónico *
+                </label>
+                <input type="email"
+                  id="email"
+                  class="input-reservation"
+                  placeholder="email@email.com"
+                  required
+                />
+
+              <button type="submit" class="input-reservation-button">
+                Reservar una mesa
+              </button>
+
+              <label for="terms" class="label-reservation terms">
+                <input type="checkbox" name="terms" id="terms" class="input-reservation-checkbox"/>
+                Acepto los términos de uso
+              </label>
+            </form>
+            </fieldset>
+            </section>
         </main>
+
         <footer class="footer">
             <section id="contact"></section>
         </footer>
