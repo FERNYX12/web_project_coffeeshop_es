@@ -19,6 +19,7 @@ body {
   background-color: #ffffff;
   position: relative;
   display: flex;
+  z-index: 1;
 }
 
 .logo {
@@ -69,6 +70,7 @@ body {
   letter-spacing: 0;
   row-gap: 20px;
   height: 200px;
+  z-index: 2;
 }
 
 .header-title {
@@ -114,6 +116,8 @@ body {
   padding-left: 80px;
   position: relative;
   bottom: 40px;
+  z-index: 1;
+  width: 100vh;
 }
 
 .header-hours {
