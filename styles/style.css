@@ -6,6 +6,7 @@ body {
   font-weight: 20px;
   color: #000000;
   position: relative;
+  z-index: -2;
 }
 /* ===HEADER=== */
 .header {
@@ -142,6 +143,7 @@ body {
   display: flex;
   text-align: left;
   justify-content: center;
+  z-index: 2;
 }
 
 .reserv {
@@ -227,5 +229,91 @@ body {
 
 /* ===FOOTER===*/
 .footer {
+  display: flex;
   background-color: #d35722;
+  flex-direction: column;
+  z-index: -1;
+  position: relative;
+}
+
+.circle {
+  background-color: #e96e3a;
+  width: 340px;
+  height: 340px;
+  border-radius: 360px;
+  z-index: -2;
+  position: absolute;
+  left: -40px;
+  top: -120px;
+  overflow: hidden;
+}
+
+.contact {
+  /*fuente*/
+
+  /*flexbox*/
+  margin: 60px, 80px, 108pc;
+  width: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+.logo-footer {
+  width: 105px;
+  height: 39px;
+}
+
+.social-media {
+  /*fuente*/
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  /*flexbox*/
+}
+
+.social-media-nav {
+  /*fuente*/
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  /*flexbox*/
+}
+
+.social-media-links {
+  /*fuente*/
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  /*flexbox*/
+}
+
+.social-media-link {
+  /*fuente*/
+
+  /*flexbox*/
+}
+
+.social-media-icon {
+}
+
+.copyright {
+  /*fuente*/
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  /*flexbox*/
 }
