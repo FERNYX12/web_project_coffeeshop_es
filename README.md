@@ -1,5 +1,17 @@
 # Triple Espresso
 
-//rellenar antes de enviar
-Descripción del proyecto (es decir, describe la funcionalidad y las tecnologías usadas).
-Planes de mejora del proyecto. Mientras trabajas en el proyecto, es posible que tengas algunas ideas sobre cómo mejorar la página web, como aplicar un estilo adicional o funciones útiles. Trata de pensar en al menos una mejora que te gustaría implementar en el futuro, o aprender a implementarla. Esto no significa que tengas que trabajar en ello, pero hacerlo sería una verdadera ventaja para tu porfolio, pues demuestra que puedes pensar en grande, expresar tu individualidad y hacer algo más que simplemente seguir instrucciones.
+## Descripción
+
+Página web de aterrizaje para la cafetería "Triple Espresso", con una sección
+de bienvenida, un formulario de reserva de mesas y un pie de página con
+enlaces a redes sociales.
+
+## Tecnologías y técnicas utilizadas
+
+- HTML5 semántico
+- CSS3 (Flexbox, posicionamiento absoluto, pseudoclases `:hover`)
+- Diseño responsivo dentro del rango de anchos solicitado
+
+## Planes de mejora
+
+- Agregar validación adicional en el formulario de reserva con JavaScript.

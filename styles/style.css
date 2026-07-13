@@ -168,6 +168,7 @@ body {
 
 .form {
   /*flexbox*/
+  display: flex;
   max-width: 385px;
   flex-direction: column;
 }
@@ -214,7 +215,7 @@ body {
 }
 
 .input-reservation-button:hover {
-  opacity: 30%;
+  opacity: 0.7;
 }
 
 .terminos {
@@ -255,10 +256,10 @@ body {
   background-color: #e96e3a;
   width: 340px;
   height: 340px;
-  border-radius: 360px;
+  border-radius: 50%;
   z-index: -2;
   position: absolute;
-  left: -40px;
+  left: -44px;
   top: -120px;
   overflow: hidden;
 }
@@ -272,9 +273,8 @@ body {
   width: 700px;
   align-self: stretch;
   box-sizing: border-box;
-  justify-content: space-around;
-  margin: 60px, 80px, 108px;
-  padding: auto;
+  justify-content: flex-end;
+  margin: 60px 80px 108px;
   z-index: 1;
 }
 
@@ -303,6 +303,8 @@ body {
   line-height: 20px;
   color: #ffffff;
   /*flexbox*/
+  margin: 0;
+  padding: 0;
 }
 
 .social-media-links {
