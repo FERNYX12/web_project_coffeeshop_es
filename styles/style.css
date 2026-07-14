@@ -5,7 +5,8 @@ body {
   font-size: 16px;
   font-weight: 20px;
   color: #000000;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 /* ===HEADER=== */
 .header {
@@ -20,6 +21,7 @@ body {
   background-color: #ffffff;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   z-index: 1;
 }
@@ -43,6 +45,7 @@ body {
   justify-content: center;
   align-self: self-end;
   z-index: 1;
+  margin-right: 26px;
 }
 
 .nav-links {
@@ -124,9 +127,8 @@ body {
   line-height: 20px;
   color: #6f6f6f;
   flex-direction: row;
-  width: 100vh;
   box-sizing: border-box;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   margin: auto 80px 40px;
   z-index: 1;
@@ -208,10 +210,9 @@ body {
   border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
-  width: 120px;
+  width: 100%;
   box-sizing: border-box;
   background-color: #e96e3a;
-  width: 100%;
 }
 
 .input-reservation-button:hover {
@@ -219,13 +220,15 @@ body {
 }
 
 .terminos {
+  margin-left: 25%;
   align-items: center;
-  margin-left: auto;
+  justify-content: center;
 }
 
 .label-reservation-terms {
   display: flex;
   align-self: center;
+  box-sizing: border-box;
 }
 
 .input-reservation-checkbox {
@@ -237,7 +240,7 @@ body {
   line-height: 20px;
   /*flexbox*/
   border-radius: 2px;
-  box-sizing: border-box;
+
   width: 20px;
   height: 20px;
   margin-right: 12px;
@@ -250,6 +253,7 @@ body {
   z-index: -1;
   position: relative;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .circle {
@@ -268,17 +272,18 @@ body {
   /*fuente*/
 
   /*flexbox*/
+  display: flex;
   flex-direction: row;
-  max-width: 100vh;
-  width: 700px;
-  align-self: stretch;
   box-sizing: border-box;
-  justify-content: flex-end;
   margin: 60px 80px 108px;
   z-index: 1;
+  justify-content: flex-end;
 }
 
 .logo-footer {
+  position: relative;
+  top: 60px;
+  left: 80px;
   width: 105px;
   height: 39px;
 }
@@ -347,4 +352,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   /*flexbox*/
+  margin-top: 108px;
+  margin-left: 80px;
+  margin-bottom: 60px;
 }
